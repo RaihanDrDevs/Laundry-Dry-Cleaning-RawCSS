@@ -208,6 +208,8 @@ body {
     align-items: center; 
     color: #fff;
     gap: 20px;
+    margin-top: 40px;
+    border: 1px solid;
 }
 .book_btn a {
     color: #fff;
@@ -219,9 +221,6 @@ body {
 .clients {
     display: flex;
     color: #fff;
-    justify-content: space-between;
-    
-    
 }
 .clients_pic {
     display: flex;
@@ -238,21 +237,22 @@ body {
 }
 
 .clients_revies {
+    display: flex;
+    flex-direction: column;
     
-    justify-content: center;
 }
 
 .clients_revies svg {
-    margin-bottom: -15px;
+    margin-bottom: -5px;
 }
 
 .clients_revies p {
-
+ width: 150px;
+ margin-bottom: -5px;
 }
 
 .indecator {
     width: 30%;
-    
     display: flex;
     justify-content: center;
     align-items: center;

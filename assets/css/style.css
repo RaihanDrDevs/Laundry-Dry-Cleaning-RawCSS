@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1, h2, h3, h4, h5, h6 {
     color: #142137;
+    font-weight: 600;
 }
 
 p {
@@ -98,7 +105,7 @@ body {
 
 /* nav */
 .section_nav {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .nav_items {
@@ -209,7 +216,7 @@ body {
     color: #fff;
     gap: 20px;
     margin-top: 40px;
-    border: 1px solid;
+    
 }
 .book_btn a {
     color: #fff;
@@ -257,3 +264,374 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* about */
+
+.about {
+    padding: 80px 0;
+}
+
+.about_inner {
+    display: flex;
+}
+
+.about_left_item {
+
+}
+
+
+.about_left_item p.about_info_btn {
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+.about_left_item h1 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  margin: 25px 0;
+  width: 80%;
+}
+
+
+
+p.about_text {
+  opacity: .7;
+  margin-bottom: 30px;
+}
+.about_left_item a {
+  border: 1px solid #ddd;
+  color: #142137;
+  font-weight: 500;
+  padding: 5px 15px;
+  margin-bottom: 50px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+
+
+.img_item {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.img_item_box {
+  border: 1px solid #ddd;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  background-color: #fff;
+}
+
+.img_item_box::after {
+	content: '';
+	width: 80px;
+	height: 80px;
+	background: #ddd;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	left: 35%;
+	top: 14%;
+}
+
+.img_item_box h1 {
+  font-size: 150px;
+  z-index: 2;
+}
+.img_item_box p {
+  margin-top: 30px;
+  margin-left: -25px;
+  z-index: 3;
+}
+.img_item_box h1 {
+  align-self: center;
+}
+
+.about_count_item {
+    align-self: flex-end ;
+}
+
+.about_count_inner {
+    display: flex;
+    align-items: end;
+    align-self: flex-end;
+    gap: 20px;
+    justify-content: center;
+}
+
+.single_inner_item {
+	width: 180px;
+	border: 1px solid #ddd;
+	padding: 20px;
+	text-align: center;
+	height: 180px;
+	border-radius: 50%;
+	align-self: center;
+	align-content: center;
+    
+}
+
+.single_inner_item h1 {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.single_inner_item p {
+	font-weight: 500;
+}
+
+.about_count_item img {
+    margin-top: 100px;
+}
+
+/*  */
+
+.clinets_area {
+    width: 100%;
+    margin: 20 auto;
+    padding: 80px 60px;
+    background-color: #ECF2FE;
+}
+.clients_top {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.clients_top h4 {
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 16px;
+	opacity: .7;
+    margin-bottom: 15px;
+}
+
+.clients_top h1 {
+	font-size: 54px;
+	font-weight: 600;
+	width: 40%;
+	margin: auto;
+	line-height: 1.2;
+}
+.clients_inner {
+    display: flex;
+    justify-content: center;
+}
+.single_clients_item {
+	padding: 30px;
+	border-right: 1px solid #ddd;
+	width: 25%;
+	overflow: hidden;
+}
+.single_clients_item:nth-last-child(1) {
+
+    border-right: 0;
+}
+
+.single_clients_item h3 {
+	font-size: 30px;
+	margin-bottom: 25px;
+	transition: .3s;
+    margin-top: 40px;
+}
+
+.single_clients_item:hover h3, .single_clients_item:hover a {
+	color: #4375E7;
+}
+
+.single_clients_item p {
+	opacity: .7;
+	margin-bottom: 60px;
+}
+
+.single_clients_item a {
+	color: #142137;
+	font-weight: 500;
+	display: flex;
+	gap: 15px;
+	align-items: center;
+    transition: .3s;
+}
+
+.single_clients_item img {
+	margin-left: -45px;
+	object-fit: cover;
+}
+
+/* video_intro */
+.video_intro {
+    padding: 80px 0;
+}
+.video_intro_inner {
+    width: 1290px;
+    margin: 0 auto;
+}
+.video_intro_top {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.video_intro_top h1 {
+	font-size: 54px;
+	margin-bottom: 10px;
+}
+
+.video_intro_top p {
+	opacity: .7;
+}
+
+.video_intro_box {
+	height: 670px;
+	background-image: url('../image/video_thumb.png.png');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+.video_intro_box img {
+
+}
+
+.sample_inner {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.sample_inner_item {
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    
+    
+}
+.sample_inner_item svg {
+
+    /* margin-bottom: 20px;
+    width: 170px;
+    height: 170px; */
+}
+
+.sample_inner_item p {
+    padding: 0 30px;
+}
+
+/*  */
+.expert_top {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.expert_top p {
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.expert_top h1 {
+  font-size: 54px;
+  width: 56%;
+  margin: auto;
+  line-height: 1.2;
+}
+.expert_top {
+}
+.expert_memeber {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.single_expart_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.single_expert {
+  background-color: #ECF2FE;
+}
+.name h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.name p {
+  opacity: .7;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.single_expert:hover {
+}
+
+.expert_social {
+    
+}
+.expert_social:hover img {
+  background-color: #4375E7;
+}
+
+.expert_social ul {
+    
+}
+.expert_social ul li  {
+    position: relative;
+    display: block;
+    
+}
+.expert_social ul li a {
+    
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #fff;
+    transition: .3s;
+    color: #142137;
+    height: 40px;
+    width: 40px;
+}
+
+.expert_social ul li a i {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.expert_social ul li a:hover {
+    background-color: #4375E7;
+    color: #fff;
+}
+
+.expert_social ul li ul {
+    position: absolute;
+    visibility: hidden ;
+    bottom: 65px;
+    left: 0;
+    transition: .3s;
+
+}
+.expert_social ul li:hover ul {
+    visibility:visible;
+    transition: .3s;
+}
+
+/* .single_expert:hover .expert_social ul li > a {
+    background-color: #4375E7;
+    color: #fff;
+} */
+
+.single_expert:hover .expert_social ul li ul  {
+    visibility:visible;
+    transition: .3s;
+
+}
+
+
+. {}
+. {}

@@ -40,9 +40,7 @@ img {
 }
 
 
-html {
-    /* font-size: 62.5%; */
-}
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -305,7 +303,6 @@ body {
     display: flex;
 }
 
-.about_left_item {}
 
 
 .about_left_item p.about_info_btn {
@@ -538,7 +535,6 @@ p.about_text {
 }
 
 
-.video_intro_box img {}
 
 .sample_inner {
     display: flex;
@@ -554,12 +550,7 @@ p.about_text {
 
 }
 
-.sample_inner_item svg {
 
-    /* margin-bottom: 20px;
-    width: 170px;
-    height: 170px; */
-}
 .sample_inner_item h3 {
 	margin-top: 20px;
 }
@@ -593,7 +584,7 @@ p.about_text {
     line-height: 1.2;
 }
 
-.expert_top {}
+
 
 .expert_memeber {
     display: flex;
@@ -624,15 +615,12 @@ p.about_text {
     text-transform: uppercase;
 }
 
-.single_expert:hover {}
 
-.expert_social {}
 
 .expert_social:hover img {
     background-color: #4375E7;
 }
 
-.expert_social ul {}
 
 .expert_social ul li {
     position: relative;
@@ -689,14 +677,12 @@ p.about_text {
 
 /* Work */
 
-.work_area {}
 
 .top_work {
     display: flex;
     align-items: end;
 }
 
-.work_item {}
 
 .top_work_left p {
     font-size: 16px;
@@ -725,5 +711,3 @@ p.about_text {
     
     
 }
-
-. {}

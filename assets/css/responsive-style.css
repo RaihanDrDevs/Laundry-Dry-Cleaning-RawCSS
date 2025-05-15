@@ -1,0 +1,56 @@
+@media screen and (max-width:960px) { 
+    .wrapper {
+        scale: 0.8;
+    }
+
+    .work_area {
+        scale: 0.8;
+    }
+
+    .box {
+    
+    }
+
+    .box h2 {
+        width: 0;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .product_left {
+        width: 100%;
+    }
+    .product_right {
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+
+    .box.active .products {
+        justify-content: start;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width:730px) { 
+    .wrapper {
+        scale: 0.6;
+    }
+
+    .work_area {
+        scale: 0.6;
+    }
+    
+}
+
+@media screen and (max-width:500px) { 
+    .wrapper {
+        scale: 0.45;
+    }
+    
+}
+

@@ -112,3 +112,13 @@
     align-items: center;
 }
 
+.product_right ul li i.fa {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: #4375E7; 
+   text-align: center;
+   align-content: center;
+   color: #fff;
+   font-weight: 300;
+}

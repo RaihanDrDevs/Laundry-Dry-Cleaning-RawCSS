@@ -76,12 +76,15 @@ body {
     margin-right: 15px;
 }
 
-.social_icon_inner svg {
+.social_icon_inner a {
     margin-right: 10px;
-    height: 30px;
-    width: 30px;
     padding: 5px;
-
+    color: #fff;
+    opacity: .7;
+    transition: .3s;
+}
+.social_icon_inner a:hover {
+    opacity: 100;
 }
 
 .contact_inner {
@@ -114,16 +117,21 @@ body {
     border-right: none;
 }
 
-.top_menu li svg {
-    margin-top: 4px;
-    margin-right: 8px;
+.top_menu li i {
+
+    margin-right: 5px;
 }
 
 .top_menu li a {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     color: #fff;
     opacity: 70%;
+    transition: .3s;
+}
+
+.top_menu li a:hover {
+    opacity: 100;
 }
 
 /* nav */
@@ -175,10 +183,17 @@ body {
     border: 1px solid #ddd;
     padding: 8px 15px;
     border-radius: 5px;
+    color: #142137;
+    transition: .3s;
 
 }
 
-.nav_btn a svg {
+.nav_btn a:hover {
+    background-color: #4375E7;
+    color: #fff;
+}
+
+.nav_btn a i {
     margin-left: 10px;
 }
 
@@ -499,8 +514,8 @@ p.about_text {
 }
 
 .single_clients_item img {
-    margin-left: -45px;
-    object-fit: cover;
+    /* margin-left: -45px; */
+    /* object-fit: cover; */
 }
 
 /* video_intro */
@@ -756,9 +771,11 @@ p.about_text {
     padding: 20px;
     justify-content: space-between;
     padding-bottom: 50px;
+    height: 120px;
+}
 
-
-
+.single_price_item_top img {
+    height: 50px;
 }
 
 .single_price_item_under {
@@ -774,6 +791,20 @@ p.about_text {
     justify-items: center;
     margin-bottom: 20px;
     gap: 15px;
+}
+
+.single_price_item_under li i {
+    font-size: 10px;
+    font-weight: 300;
+    height: 20px;
+    width: 20px;
+    background-color: #22E17F;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+
 }
 
 .pirce_btn_item {
@@ -839,6 +870,10 @@ p.about_text {
     margin-bottom: 20px;
 }
 
+.rating i {
+   color:#F59E0B ;
+   
+}
 .review_profile {
     display: flex;
     gap: 20px;
@@ -943,10 +978,16 @@ p.about_text {
     gap: 20px
 }
 
+.date_time_comment i.fa {
+    font-size: 25px;
+    font-weight: 300;
+}
+
 .date_time_comment .date {
     align-items: center;
     display: flex;
     gap: 10px;
+    
 }
 
 .date_time_comment .comment {
@@ -1024,12 +1065,14 @@ p.about_text {
     margin-bottom: 20px;
 }
 
-.logo svg {
+.logo ul li i {
     width: 30px;
     height: 30px;
     border: 1px solid #ddd;
     border-radius: 50%;
     padding: 5px;
+    text-align: center;
+    align-content: center;
 
 }
 
@@ -1237,6 +1280,8 @@ p.about_text {
     background-color: #4375E7;
 } 
 
+/*  */
+
 .blog_add {
     background-color: #EBEFF3;
     padding: 30px;
@@ -1252,6 +1297,12 @@ p.about_text {
     font-size: 20px;
     font-weight: 500;
 }
+
+.blog_add .icon i {
+    font-size: 50px;
+}
+
+/*  */
 
 .blog_pagination {
     display: flex;

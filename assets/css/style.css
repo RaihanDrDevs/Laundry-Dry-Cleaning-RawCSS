@@ -231,6 +231,12 @@ body {
     margin: 0 auto;
 }
 
+.hero_bg_container_top a i{
+    color: #fff;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
 .Hero_item a {
     color: #fff;
     background-color: #ffffff55;
@@ -293,8 +299,8 @@ body {
 
 }
 
-.clients_revies svg {
-    margin-bottom: -5px;
+.clients_revies_rating i {
+    color: #F59E0B;
 }
 
 .clients_revies p {
@@ -305,9 +311,24 @@ body {
 .indecator {
     width: 30%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.indecator i {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+.indecator i:hover {
+    background-color: #4375E7;
+    border: 1px solid #4375E7;
+}
+
 
 /* about */
 

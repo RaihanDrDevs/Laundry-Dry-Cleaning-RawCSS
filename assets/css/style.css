@@ -161,6 +161,7 @@ body {
     padding: 5px 10px;
     font-weight: 500;
     transition: .3s;
+    color: #142137;
 }
 
 .menu ul li a:hover {

@@ -534,10 +534,7 @@ p.about_text {
     transition: .3s;
 }
 
-.single_clients_item img {
-    /* margin-left: -45px; */
-    /* object-fit: cover; */
-}
+
 
 /* video_intro */
 .video_intro {

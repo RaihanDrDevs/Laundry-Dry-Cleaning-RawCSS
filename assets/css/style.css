@@ -819,7 +819,7 @@ p.about_text {
     opacity: .7;
 }
 
-.reviews_top h1 {}
+
 
 .reviews_item {
     display: flex;
@@ -898,7 +898,6 @@ p.about_text {
     font-size: 15px;
 }
 
-. {}
 
 
 .blog_items {
@@ -1175,8 +1174,6 @@ p.about_text {
     margin-bottom: 40px;
 }
 
-.blog_item img {
-}
 
 .single_blog_post_inner {
     padding: 20px;
@@ -1198,7 +1195,6 @@ p.about_text {
 
 .blog_status_in {
     display: flex;
-    flex-direction: ;
     gap: 15px;
     align-items: center;
 
@@ -1332,9 +1328,6 @@ p.about_text {
     opacity: .8;
 }
 /*  */
-.recent_post {
-    
-}
 
 .recent_post_inner {
     display: flex;
@@ -1354,9 +1347,6 @@ p.about_text {
 
 
 
-.recent_inner_item {
-    
-}
 
 .recent_inner_item h4 {
     font-size: 18px;
@@ -1372,12 +1362,9 @@ p.about_text {
     font-size: 15px;
 }
 /*  */
-.catagories {
-    
-}
-.catagories ul li {
-    
-}
+
+
+
 
 .catagories ul li a{
     display: flex;
@@ -1404,9 +1391,6 @@ p.about_text {
 }
 
 /*  */
-.tag {
-
-}
 
 .tag_item {
     display: flex;
@@ -1430,9 +1414,7 @@ p.about_text {
 .follow_us {
     text-align: c;
 }
-.follow_us_icon {
 
-}
 .follow_us_icon i {
     height: 50px;
     width: 50px;
